@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Activities extends Component {
+class Driver extends Component {
   render() {
     return(
       <div>
-        <h1>Activities</h1>
+        <h1>Driver</h1>
       </div>
     )
   }
 }
 
-export default Activities;
+export default Driver;

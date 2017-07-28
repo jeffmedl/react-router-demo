@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './screens/Home';
+
+// Pages
+import { Activities, Drivers, Home, Profile, Vehicles } from './screens';
 
 class App extends Component {
   render() {
@@ -12,6 +14,10 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <Home />
+        <Activities />
+        <Drivers />
+        <Profile />
+        <Vehicles />
       </div>
     );
   }
