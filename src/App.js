@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // Pages
-import { Activities, Drivers, Home, Profile, Vehicles } from './screens';
+import Router from './Router';
 
 class App extends Component {
   render() {
@@ -13,11 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <Home />
-        <Activities />
-        <Drivers />
-        <Profile />
-        <Vehicles />
+        <Router />
       </div>
     );
   }
